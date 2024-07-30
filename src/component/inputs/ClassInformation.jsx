@@ -1,10 +1,8 @@
 import React, { useState, useEffect } from 'react';
-// import { withStyles } from '@ellucian/react-design-system/core/styles';
 import PropTypes from 'prop-types';
 import { TextField } from '@ellucian/react-design-system/core';
 import { withStyles } from '@ellucian/react-design-system/core/styles';
 import { spacing20 } from '@ellucian/react-design-system/core/styles/tokens';
-// import { spacing10, spacing40 } from '@ellucian/react-design-system/core/styles/tokens';
 
 const styles = () => ({
     root:
@@ -27,7 +25,7 @@ const ClassInformation = (props) => {
             number: number,
             section: section,
         });
-    }, [subject, number, section]);  // This useEffect runs when any of these values change
+    }, [subject, number, section]); 
 
     return (
         <>

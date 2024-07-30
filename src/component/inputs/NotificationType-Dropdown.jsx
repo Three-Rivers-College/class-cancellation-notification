@@ -9,9 +9,7 @@ const NotificationType = (props) => {
     const { value, setFunction } = props;
 
     const handleChange = (selectedValue) => {
-        // Call the setAaProgram function to update aaProgram in the parent component
         setFunction(selectedValue.target.value);
-        // console.log(selectedValue.target.value);
     };
 
     const options = ['Single Class', 'All Classes'];

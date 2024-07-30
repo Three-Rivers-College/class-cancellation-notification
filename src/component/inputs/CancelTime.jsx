@@ -1,8 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import {
-    TimePicker
-} from '@ellucian/react-design-system/core';
+import { TimePicker } from '@ellucian/react-design-system/core';
 import { withStyles } from '@ellucian/react-design-system/core/styles';
 import { spacing20 } from '@ellucian/react-design-system/core/styles/tokens';
 
