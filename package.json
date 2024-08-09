@@ -1,6 +1,6 @@
 {
   "name": "ClassCancellationNotification",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Class Cancellation Notification forms card",
   "main": "index.js",
   "license": "UNLICENSED",
