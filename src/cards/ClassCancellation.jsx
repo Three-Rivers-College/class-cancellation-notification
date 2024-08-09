@@ -199,7 +199,7 @@ const ClassCancellationNotificationCard = (props) => {
             {person && submitted &&
                 <>
                     <Typography>
-                        {submitText ? submitText : 'Thanks for notifying us of your class cancellation. Remember: This is only notifies staff of this cancellation. You will need to notify your students separately'}
+                        {submitText ? submitText : 'Thanks for notifying us of your class cancellation. Remember: This only notifies staff of this cancellation. You will need to notify your students separately'}
                     </Typography>
                     <br />
                     <Button onClick={resetForm}>Go Back</Button>
